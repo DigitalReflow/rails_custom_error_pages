@@ -1,5 +1,11 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+@charset 'utf-8';
+
+@import 'foundation';
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-callout;
 
 body {
   padding-top: 60px;

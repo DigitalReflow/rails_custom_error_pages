@@ -1,6 +1,6 @@
 # rails_custom_error_pages [![Build Status](https://travis-ci.org/dbackowski/rails_custom_error_pages.svg?branch=master)](https://travis-ci.org/dbackowski/rails_custom_error_pages)
 
-Rails engine for custom error pages with bootstrap.
+Rails engine for custom error pages with foundation.
 
 ![screenshot](http://i.imgur.com/x744BAB.png)
 
@@ -12,13 +12,13 @@ Add this line to your application's Gemfile:
 
 And then execute:
 
-    $ bundle 
+    $ bundle
 
 Or install it yourself as:
 
     gem install rails_custom_error_pages
 
-## Customize 
+## Customize
 
 To customize locale:
 

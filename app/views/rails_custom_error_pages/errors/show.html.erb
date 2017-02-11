@@ -8,12 +8,14 @@
     <%= stylesheet_link_tag "rails_custom_error_pages/application", media: "all" %>
   </head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1><%= @status_code %></h1>
-        <p>
-          <%= t(".#{@status_code}.description") %>
-        </p>
+    <div class="row">
+      <div class="small-12 columns">
+        <div class="callout">
+          <h1><%= @status_code %></h1>
+          <p>
+            <%= t(".#{@status_code}.description").html_safe %>
+          </p>
+        </div>
       </div>
     </div>
   </body>
